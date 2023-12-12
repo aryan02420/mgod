@@ -4,18 +4,18 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'mgod',
-  tagline: 'MongoDB ODM designed to work with Go modelsl',
+  tagline: 'Transform your MongoDB interactions in Go effortlessly with mgod',
   favicon: '/img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://aryan02420.github.io',
+  url: 'https://lyearn.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/mgod/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'aryan02420',
+  organizationName: 'Lyearn',
   projectName: 'mgod',
   trailingSlash: false, // https://github.com/slorber/trailing-slash-guide 
 
@@ -37,7 +37,7 @@ const config: Config = {
         docs: {
           path: '../docs/',
           sidebarPath: './sidebars.ts',
-          // editUrl: 'https://github.com/aryan02420/mgod/tree/main/docs/',
+          // editUrl: 'https://github.com/Lyearn/mgod/tree/main/docs/',
           exclude: ['**/README.md'],
           breadcrumbs: false,
         },
@@ -98,7 +98,7 @@ const config: Config = {
         {
           'aria-label': 'GitHub',
           className: 'navbar-github-link',
-          href: 'https://github.com/aryan02420/mgod',
+          href: 'https://github.com/Lyearn/mgod',
           position: 'right',
         },
       ],
